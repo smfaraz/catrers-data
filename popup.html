@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maps Scraper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Google Maps Scraper</h1>
+
+      <div class="progress-card">
+        <span class="label">Progress</span>
+        <span id="progressCount" class="value">0 listings</span>
+      </div>
+
+      <button id="startBtn" class="btn btn-primary">Start Scraping</button>
+
+      <div class="downloads">
+        <button id="downloadCsvBtn" class="btn" disabled>Download CSV</button>
+        <button id="downloadJsonBtn" class="btn" disabled>Download JSON</button>
+      </div>
+
+      <p id="status" class="status">Ready.</p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
